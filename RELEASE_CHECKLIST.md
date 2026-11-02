@@ -1,7 +1,8 @@
 # Release checklist
 
 Prepared on 2026-11-01; validation/release status updated on 2026-11-02.
-The five fixed PA-F1/Aff-F1 workflows are locally validated, not publicly released.
+The five fixed PA-F1/Aff-F1 workflows are locally validated. A public code snapshot
+is available at https://github.com/ducory/LFP-AD; no tagged release has been created.
 
 ## Included
 
@@ -35,15 +36,18 @@ The five fixed PA-F1/Aff-F1 workflows are locally validated, not publicly releas
 - Locally available SWaT inputs were verified, but official access plus a complete
   validated raw-to-prepared conversion is not yet fully documented.
 
-## Required before public release
+## Publication status and outstanding items
+
+- [x] Publish the code snapshot to the author's repository on 2026-11-02:
+  https://github.com/ducory/LFP-AD.
 
 - [ ] Finish SWaT's official-access and exact preparation documentation, including
   a validated conversion to both archived CSV inputs. Do not redistribute the data.
 - [ ] Review upstream notices/permissions for the historical loader and PA adaptations.
 - [ ] Authors choose and approve repository and checkpoint licenses.
-- [ ] Authors review the package, publish the chosen repository/version and add
-  its actual URL/release tag to the manuscript. No URL is fabricated here.
+- [ ] Complete the authors' release review and add the actual repository URL
+  and chosen version to the manuscript. No manuscript change was made here.
 
-Until the remaining release checks are completed, describe this as a locally
-validated five-model PA-F1/Aff-F1 reproduction package, not as publicly released
-code or validation of every experiment in the manuscript.
+Describe this as a public code snapshot of the locally validated five-model
+PA-F1/Aff-F1 reproduction package. Publication does not imply that the outstanding
+release items or validation of every manuscript experiment are complete.

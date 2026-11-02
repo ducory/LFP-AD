@@ -1,12 +1,13 @@
 # LFP-AD: minimal reproduction package
 
-This local preparation contains the five frozen LFP-AD models and the training
+This repository contains the five frozen LFP-AD models and the training
 and scoring code needed for their target-aligned PA-F1/Aff-F1 evaluation.
 It is not a reproduction package for every baseline, ablation or historical
 R-AUC/VUS column in the manuscript.
 
-**Status:** locally validated for the five fixed LFP-AD PA-F1/Aff-F1 experiments;
-not a public release. Both supplied-checkpoint evaluation and training from
+**Status:** public code snapshot at [ducory/LFP-AD](https://github.com/ducory/LFP-AD),
+published on 2026-11-02 and locally validated for the five fixed LFP-AD PA-F1/Aff-F1
+experiments. Both supplied-checkpoint evaluation and training from
 scratch followed by evaluation passed in the recorded environment. See
 [Validation status](#validation-status) and [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
 No raw dataset files are included.
@@ -185,10 +186,11 @@ escape-sequence warnings; it is retained unchanged rather than being silently
 rewritten during packaging. The unit tests and full-data validation are separate
 checks; running the unit tests does not start a benchmark or training job.
 
-## Before public release
+## Release notes
 
 Read [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the release checklist.
 The authors must choose licenses for their code and model weights and finish the
 attribution review. No repository-level license has been invented or granted
 by preparing this folder. Do not commit restricted data, credentials or private
-server paths. Record the release commit/tag when the public repository exists.
+server paths. This public snapshot does not resolve the outstanding license,
+attribution or SWaT preparation items. No tagged release has been created.
