@@ -1,0 +1,210 @@
+{
+  "prepared_date": "2026-11-01",
+  "selection_manifest_sha256": "a134149fdfe2724720c7c49cc6ce8bff28305df546596c6241b8e6ce9888aaf0",
+  "copied_files": {
+    "src/cfcdino/__init__.py": {
+      "source_relative": "cfcdino/__init__.py",
+      "sha256": "53a8fee6479cf4a157315d551d9e07d237d93e77785b6d01d6da0078e68dd1e4"
+    },
+    "src/cfcdino/anomaly_detector.py": {
+      "source_relative": "cfcdino/anomaly_detector.py",
+      "sha256": "ac1511d9b611ea406887f0a372b2c4653d1ae68cee2f81b7a2c766f79679ce58"
+    },
+    "src/cfcdino/cfc_temporal.py": {
+      "source_relative": "cfcdino/cfc_temporal.py",
+      "sha256": "743a0e51ad64a68b7c1f1aa25e954a55800c32dfe8bfeaed8e140b83513fe389"
+    },
+    "src/cfcdino/dino_encoder.py": {
+      "source_relative": "cfcdino/dino_encoder.py",
+      "sha256": "e9999b3a3959f8a7d32120293f957708a545b9ea8b22908b65454353f5fd1b27"
+    },
+    "src/cfcdino/losses.py": {
+      "source_relative": "cfcdino/losses.py",
+      "sha256": "3390040323f23ebdd92d290fb38c3cc2ba92faa2382a891049f0af65b043bcae"
+    },
+    "src/cfcdino/model.py": {
+      "source_relative": "cfcdino/model.py",
+      "sha256": "1a5746a63863536b47938b75b384e47552374bbd5dd4c61291c8b4cb85962983"
+    },
+    "src/data_factory/data_loader.py": {
+      "source_relative": "data_factory/data_loader.py",
+      "sha256": "32abb5835543dbf8342376bfa060913eca51035a5b0cd3cc9055c3621f0b6cff"
+    },
+    "src/raw_helpers.py": {
+      "source_relative": "scripts/raw_forecasting.py",
+      "sha256": "29ee750b891a8d5506ccc00f37ab3ad2849d7a78b222a25d33c343a506dd9d17"
+    },
+    "src/metrics/f1_score_f1_pa.py": {
+      "source_relative": "metrics/f1_score_f1_pa.py",
+      "sha256": "10892fe40e5d91094711695d8a6778a8752cfd40c9f548b70b9935ad17eafce7"
+    },
+    "src/metrics/affiliation/_affiliation_zone.py": {
+      "source_relative": "metrics/affiliation/_affiliation_zone.py",
+      "sha256": "84ad280794a0d06f32c76a73818d6517d0c9cd539f46de78f5dbdd7ffe2f4caf"
+    },
+    "src/metrics/affiliation/_integral_interval.py": {
+      "source_relative": "metrics/affiliation/_integral_interval.py",
+      "sha256": "19354ffc28bd845a4ff8f773bd2c875ac42b51120b59a4f34c12bd9f890f1736"
+    },
+    "src/metrics/affiliation/_single_ground_truth_event.py": {
+      "source_relative": "metrics/affiliation/_single_ground_truth_event.py",
+      "sha256": "b6777235607d3c8f3e2ca2e536d0ab2bfdb5941194e2590255ba2cade066c95e"
+    },
+    "src/metrics/affiliation/generics.py": {
+      "source_relative": "metrics/affiliation/generics.py",
+      "sha256": "16743b204d24feb8ba9deaabceb7b0cf900520136e8a3b77e499448fcaafbfc9"
+    },
+    "src/metrics/affiliation/metrics.py": {
+      "source_relative": "metrics/affiliation/metrics.py",
+      "sha256": "dc4215afd9d29a1f0f4b47faeee11fbfa594869b824b5b558f38f2afd3cda836"
+    },
+    "src/metrics/affiliation/metrics_fast.py": {
+      "source_relative": "metrics/affiliation/metrics_fast.py",
+      "sha256": "04d8728e94c4d2bd3bab0fd8740b30b7808e43451eb50e6b4fc0f4c7b9ce482f"
+    }
+  },
+  "extracted_definitions": [
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "EarlyStopping",
+      "destination": "src/training.py",
+      "destination_definition": "EarlyStopping",
+      "ast_sha256": "3e6006676e41d83776330ba27ecac37542d15a5f04ed79205347738413837e50"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "adjust_learning_rate",
+      "destination": "src/training.py",
+      "destination_definition": "adjust_learning_rate",
+      "ast_sha256": "d8d445429fb03b29b5d822e08407fde19a3e7d8907c759587a2d8e26168f8537"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "Solver.__init__",
+      "destination": "src/training.py",
+      "destination_definition": "Solver.__init__",
+      "ast_sha256": "415ae92c127db56417c216cf12453fd0f2b3e6ce54f876c4101746e4838b7ce8"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "Solver._build_model",
+      "destination": "src/training.py",
+      "destination_definition": "Solver._build_model",
+      "ast_sha256": "ed12868bb5bd3070d6f0cabf52f353329fd2046fcdb02d249a5d8d3bbe4ef624"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "Solver._model",
+      "destination": "src/training.py",
+      "destination_definition": "Solver._model",
+      "ast_sha256": "44a3170c2f6ffd9fbadfd570e6410627a6ca282615d347e467fb9862672848c2"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "Solver.vali",
+      "destination": "src/training.py",
+      "destination_definition": "Solver.vali",
+      "ast_sha256": "c40e85c833f950f1425072f08a793145601b71e7f0f04e98721b071a8596dc99"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "Solver.train",
+      "destination": "src/training.py",
+      "destination_definition": "Solver.train",
+      "ast_sha256": "6960744ef3531fd17734d7fe4d9f141fa74fa8261d8f8ef06a20e00e4a0aea09"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "Solver._minmax",
+      "destination": "src/training.py",
+      "destination_definition": "Solver._minmax",
+      "ast_sha256": "36ed246383f00d1b5de288cc90f3c6d7eb8e1812f6872e020396b599045dd45d"
+    },
+    {
+      "source_relative": "solver.py",
+      "source_sha256": "2f163d6b50f7d92225bff631325766b7fcb8f0c217d521775fd28d8de384e089",
+      "source_definition": "Solver._combine",
+      "destination": "src/training.py",
+      "destination_definition": "Solver._combine",
+      "ast_sha256": "719c8a6fe3177fa0c57c0a31a7b280b4dfeb82f27e54ca435f576b6bf39f320e"
+    },
+    {
+      "source_relative": "main.py",
+      "source_sha256": "910bdee80f5a777aeefeb3f774c3fb9abe88a6902dcb52a4df2c973012b2fefc",
+      "source_definition": "set_seed",
+      "destination": "src/runtime.py",
+      "destination_definition": "set_seed",
+      "ast_sha256": "a04c09e5ca517ac8828897a3732f9403e9c5f26245cf6b1afc6e59140bf64535"
+    },
+    {
+      "source_relative": "scripts/diagnose_msl_eval_gap.py",
+      "source_sha256": "b00488ee06a17e6502ea18d9f0b839cfec9d905938631bf7ee59b5ef4d63a694",
+      "source_definition": "make_calibration",
+      "destination": "src/scoring.py",
+      "destination_definition": "make_calibration",
+      "ast_sha256": "e54721fb78a7ca572f92fe20351f8818c2e14c0865affc8a6c236b88411c8302"
+    },
+    {
+      "source_relative": "scripts/diagnose_msl_eval_gap.py",
+      "source_sha256": "b00488ee06a17e6502ea18d9f0b839cfec9d905938631bf7ee59b5ef4d63a694",
+      "source_definition": "pa_aff_metrics",
+      "destination": "src/scoring.py",
+      "destination_definition": "pa_aff_metrics",
+      "ast_sha256": "ffd467eea202801ff0b1cc13c0cc3d292758a12bcbe1b30229b36ecf4a8ad71d"
+    },
+    {
+      "source_relative": "scripts/diagnose_msl_eval_gap.py",
+      "source_sha256": "b00488ee06a17e6502ea18d9f0b839cfec9d905938631bf7ee59b5ef4d63a694",
+      "source_definition": "evaluate_case",
+      "destination": "src/scoring.py",
+      "destination_definition": "evaluate_case",
+      "ast_sha256": "e0bb5177d5eba06c005dbadbfba14625a9b444c24c11bdc1c804cb6b19512c32"
+    },
+    {
+      "source_relative": "scripts/run_raw_forecasting.py",
+      "source_sha256": "9c4a2d3114fcb850910022ad855dc74633d72440d9dc6ce2bd1179d39518e0e8",
+      "source_definition": "PairedSolver",
+      "destination": "src/engine.py",
+      "destination_definition": "PairedSolver",
+      "ast_sha256": "c3cf3163a1ebc89de2cd30872c8e14530c7d408c83e43e7f17567af74c871ed0"
+    },
+    {
+      "source_relative": "scripts/run_raw_forecasting.py",
+      "source_sha256": "9c4a2d3114fcb850910022ad855dc74633d72440d9dc6ce2bd1179d39518e0e8",
+      "source_definition": "tensor_hash",
+      "destination": "src/engine.py",
+      "destination_definition": "tensor_hash",
+      "ast_sha256": "52ff147b62febc61ebb1c6bcf15bd9a49a4f8e1f33b5a9be0663dd6395e24218"
+    },
+    {
+      "source_relative": "scripts/run_raw_forecasting.py",
+      "source_sha256": "9c4a2d3114fcb850910022ad855dc74633d72440d9dc6ce2bd1179d39518e0e8",
+      "source_definition": "parse_curves",
+      "destination": "src/engine.py",
+      "destination_definition": "parse_curves",
+      "ast_sha256": "b6cc3707a8bf1e343db127776b358a79441d7745139bb8647f0b1e6649bba483"
+    },
+    {
+      "source_relative": "scripts/run_raw_forecasting.py",
+      "source_sha256": "9c4a2d3114fcb850910022ad855dc74633d72440d9dc6ce2bd1179d39518e0e8",
+      "source_definition": "evaluate",
+      "destination": "src/engine.py",
+      "destination_definition": "evaluate",
+      "ast_sha256": "b0b20f31eff40e18ba163398f44dcca571b9efffe0513ec6aacde60455184e12"
+    }
+  ],
+  "notes": [
+    "Model, data loader and PA/Aff implementation are copied without byte changes.",
+    "Training and evaluation definitions are extracted verbatim; imports are assembled for this smaller package.",
+    "Legacy evaluation and remote archive/scheduling code are not distributed or called."
+  ],
+  "ast_fingerprint_portability": "Empty Python-3.12 type_params fields are ignored for Python-3.9 comparison."
+}

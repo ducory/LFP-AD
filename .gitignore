@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.env
+.env.*
+dataset/
+outputs/
+*.log
+*.npz
+*.csv
+*.npy

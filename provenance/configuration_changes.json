@@ -1,0 +1,56 @@
+{
+  "SMD": {
+    "original_config_sha256": "d559d56fc5eab24153158f5f6280d157a74724dcf043c475a2e01a3daad15ef8",
+    "original_training_anomaly_ratio_percent": 0.7,
+    "evaluated_anomaly_ratio_percent": 0.6,
+    "changed_fields": [
+      "data_path",
+      "model_save_path",
+      "anomaly_ratio"
+    ],
+    "other_training_fields_unchanged": true
+  },
+  "MSL": {
+    "original_config_sha256": "5a7ad22bd9365422065f793704dae0e0ae879dfbc3464027015bd625dadef777",
+    "original_training_anomaly_ratio_percent": 0.4,
+    "evaluated_anomaly_ratio_percent": 0.4,
+    "changed_fields": [
+      "data_path",
+      "model_save_path"
+    ],
+    "other_training_fields_unchanged": true
+  },
+  "SMAP": {
+    "original_config_sha256": "3b9d92ca10fdea08391ec83ed37183b18d0f361b99cefd446b41795e667a7bb4",
+    "original_training_anomaly_ratio_percent": 0.5,
+    "evaluated_anomaly_ratio_percent": 1.1,
+    "changed_fields": [
+      "data_path",
+      "model_save_path",
+      "anomaly_ratio"
+    ],
+    "other_training_fields_unchanged": true
+  },
+  "SWAT": {
+    "original_config_sha256": "88f7386aba48a3a95790d3c2c3269f786a77b2068377952c74a6c9d1b1a0c5c5",
+    "original_training_anomaly_ratio_percent": 0.1,
+    "evaluated_anomaly_ratio_percent": 0.25,
+    "changed_fields": [
+      "data_path",
+      "model_save_path",
+      "anomaly_ratio"
+    ],
+    "other_training_fields_unchanged": true
+  },
+  "PSM": {
+    "original_config_sha256": "4fa8ccaa98668ec97c7c868ca3cf8a897089b2cc6fcd36b555f23f9c32e2944b",
+    "original_training_anomaly_ratio_percent": 0.45,
+    "evaluated_anomaly_ratio_percent": 1.35,
+    "changed_fields": [
+      "data_path",
+      "model_save_path",
+      "anomaly_ratio"
+    ],
+    "other_training_fields_unchanged": true
+  }
+}

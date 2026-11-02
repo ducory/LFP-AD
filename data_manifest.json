@@ -1,0 +1,41 @@
+{
+  "SMD": {
+    "directory": "SMD",
+    "files": {
+      "SMD_test.npy": "64520f6b9351d609bb395e947a3c98f6c513f608c794c571f9a0176d98cdb671",
+      "SMD_test_label.npy": "400a29e062ca8c8f8d7e4801c68c35801f3a2180d5d70fe118d6525a33dd3ed2",
+      "SMD_train.npy": "ef3a4a4e9c87c939c23e0cdf1190c18a1d41ef1aadb5d6c5ae909514332ef791"
+    }
+  },
+  "MSL": {
+    "directory": "MSL",
+    "files": {
+      "MSL_test.npy": "8b479ebeeabb63ff636e8adeb095a7bcc46a0cdc7befa189b45b05b1e90c9425",
+      "MSL_test_label.npy": "23e120c30a645000f093ff5311de177601b8220ba3ca4281c6376883444f7b97",
+      "MSL_train.npy": "d767ecfc8ea344f7a6e78f815a84dc7923f600df1beb14359f3e73202148b058"
+    }
+  },
+  "SMAP": {
+    "directory": "SMAP",
+    "files": {
+      "SMAP_test.npy": "458c3b354b6a602b711241c29fb50518dddb0c1c9248d7d2e1691a9c218d4ac0",
+      "SMAP_test_label.npy": "55f94fcccc3ae35216cfd6ac5e0e2016ad9d08d5ff0aca9f09916c6501380e0f",
+      "SMAP_train.npy": "1c823bed59f32d45a2e6323ac79bf7755c80c2ff68a2d3d7322e4dee40a11010"
+    }
+  },
+  "SWAT": {
+    "directory": "SWaT",
+    "files": {
+      "swat2.csv": "23c5bacf78de7527aac031ad43acc7ac99ec49b17b645aaa2a74a4a7d60a0a80",
+      "swat_train2.csv": "cfdba4611fd7b093246309eae7b249da05decff8cde640c8283bfef8e6eaf5fb"
+    }
+  },
+  "PSM": {
+    "directory": "PSM",
+    "files": {
+      "test.csv": "566bc50117d13f58793d830c14975c55f627cab63953265d7d6ce2dbcf2b0f80",
+      "test_label.csv": "e5b6b0c716a9b3d52e3a1b06761527811f75a218790c37b8a5e806741aeb0676",
+      "train.csv": "816e0e2a5356b3b09d356925cd9a0fe1d327e3b350e9336d26ee3e650c72e112"
+    }
+  }
+}

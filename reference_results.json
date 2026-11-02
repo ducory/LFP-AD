@@ -1,0 +1,156 @@
+{
+  "regenerated_in_this_package_preparation": false,
+  "scope": "Archived final five LFP-AD PA/Aff points, not the historical R-AUC/VUS columns.",
+  "datasets": {
+    "SMD": {
+      "checkpoint": "checkpoints/SMD_checkpoint.pth",
+      "checkpoint_sha256": "533f0342ba7de223cce657caec4379490c1c9c6b5142dc5d500a12d83172e9b4",
+      "metrics": {
+        "pa_accuracy": 0.9892718132033358,
+        "pa_precision": 0.8772753963593658,
+        "pa_recall": 0.8625866050808314,
+        "pa_f_score": 0.8698689956331878,
+        "Affiliation_prec": 0.7762768298865721,
+        "Affiliation_rec": 0.7661122659149738,
+        "Affiliation_F1": 0.7711610549381301
+      },
+      "normalized_threshold": 0.2746771275997162,
+      "raw_threshold_for_provenance_only": 0.35029688477516174,
+      "normalization_range": {
+        "c_min": 0.0017082691192626953,
+        "c_max": 1.2707931995391846
+      },
+      "n_targets": 708321,
+      "first_evaluated_target": 99,
+      "last_evaluated_target": 708419,
+      "reference": {
+        "protocol": "original_windows_valid_positions_train_test_percentile",
+        "n_train": 694232,
+        "n_test": 694232,
+        "train_repeats": 1,
+        "uses_test_distribution": true,
+        "valid_positions_per_window": 98
+      }
+    },
+    "MSL": {
+      "checkpoint": "checkpoints/MSL_checkpoint.pth",
+      "checkpoint_sha256": "09b41d51ed3c166dbec17b4b2cafa3a4c7f92ddf011095c71ea5d0522910b0f7",
+      "metrics": {
+        "pa_accuracy": 0.9893929104984381,
+        "pa_precision": 0.9462118308419574,
+        "pa_recall": 0.9536440896214268,
+        "pa_f_score": 0.9499134226896685,
+        "Affiliation_prec": 0.6522532697297998,
+        "Affiliation_rec": 0.9132531282692415,
+        "Affiliation_F1": 0.7609963648388051
+      },
+      "normalized_threshold": 0.23401154577732086,
+      "raw_threshold_for_provenance_only": 0.3893038034439087,
+      "normalization_range": {
+        "c_min": 0.00011897087097167969,
+        "c_max": 1.663219928741455
+      },
+      "n_targets": 73630,
+      "first_evaluated_target": 99,
+      "last_evaluated_target": 73728,
+      "reference": {
+        "protocol": "original_windows_valid_positions_train_test_percentile",
+        "n_train": 5763582,
+        "n_test": 72963,
+        "train_repeats": 1,
+        "uses_test_distribution": true,
+        "valid_positions_per_window": 99
+      }
+    },
+    "SMAP": {
+      "checkpoint": "checkpoints/SMAP_checkpoint.pth",
+      "checkpoint_sha256": "c21ca7667c255132aeeb8f2d6b4df560d16efa66c5c53c3f80c7314c2d6e2081",
+      "metrics": {
+        "pa_accuracy": 0.9853877497555659,
+        "pa_precision": 0.9065946054817973,
+        "pa_recall": 0.9875310808834284,
+        "pa_f_score": 0.9453336250273463,
+        "Affiliation_prec": 0.6689026061855103,
+        "Affiliation_rec": 0.9369085005182427,
+        "Affiliation_F1": 0.7805407935438169
+      },
+      "normalized_threshold": 0.38255518674850464,
+      "raw_threshold_for_provenance_only": 0.607140064239502,
+      "normalization_range": {
+        "c_min": 0.0006086826324462891,
+        "c_max": 1.586082935333252
+      },
+      "n_targets": 427518,
+      "first_evaluated_target": 99,
+      "last_evaluated_target": 427616,
+      "reference": {
+        "protocol": "original_windows_valid_positions_train_test_percentile",
+        "n_train": 12697896,
+        "n_test": 401944,
+        "train_repeats": 1,
+        "uses_test_distribution": true,
+        "valid_positions_per_window": 94
+      }
+    },
+    "SWAT": {
+      "checkpoint": "checkpoints/SWAT_checkpoint.pth",
+      "checkpoint_sha256": "b13eda2c83f27173b690d64344773449b0ee2c07a33ef0938ecaecf682d6e596",
+      "metrics": {
+        "pa_accuracy": 0.9943221733137699,
+        "pa_precision": 0.986380196170014,
+        "pa_recall": 0.966587942366489,
+        "pa_f_score": 0.9763837774859911,
+        "Affiliation_prec": 0.7006155177812889,
+        "Affiliation_rec": 0.8421474859693165,
+        "Affiliation_F1": 0.7648894813995464
+      },
+      "normalized_threshold": 0.06674246490001678,
+      "raw_threshold_for_provenance_only": 0.0677526593208313,
+      "normalization_range": {
+        "c_min": 0.00017708539962768555,
+        "c_max": 1.0126595497131348
+      },
+      "n_targets": 449820,
+      "first_evaluated_target": 99,
+      "last_evaluated_target": 449918,
+      "reference": {
+        "protocol": "original_windows_valid_positions_train_test_percentile",
+        "n_train": 48005397,
+        "n_test": 436403,
+        "train_repeats": 1,
+        "uses_test_distribution": true,
+        "valid_positions_per_window": 97
+      }
+    },
+    "PSM": {
+      "checkpoint": "checkpoints/PSM_checkpoint.pth",
+      "checkpoint_sha256": "c7867cda6f4e0943e8f8a3ffbf9a4e8ad376dd4a63b7c35a3c14a0237b1b47d3",
+      "metrics": {
+        "pa_accuracy": 0.9796790590595154,
+        "pa_precision": 0.9677472777708773,
+        "pa_recall": 0.9588153252932973,
+        "pa_f_score": 0.963260596319878,
+        "Affiliation_prec": 0.8223331670869655,
+        "Affiliation_rec": 0.8264868740743355,
+        "Affiliation_F1": 0.824404788571909
+      },
+      "normalized_threshold": 0.041709672659635544,
+      "raw_threshold_for_provenance_only": 0.050247788429260254,
+      "normalization_range": {
+        "c_min": 0.00046569108963012695,
+        "c_max": 1.1940041780471802
+      },
+      "n_targets": 87742,
+      "first_evaluated_target": 99,
+      "last_evaluated_target": 87840,
+      "reference": {
+        "protocol": "original_windows_valid_positions_train_test_percentile",
+        "n_train": 12708672,
+        "n_test": 84288,
+        "train_repeats": 1,
+        "uses_test_distribution": true,
+        "valid_positions_per_window": 96
+      }
+    }
+  }
+}
